@@ -1,8 +1,4 @@
-<!-- <form [formGroup]="form" (ngSubmit)="submit()">
-	<input formControlName="email" type="email" placeholder="saimon@devdactic.com" />
-	<button type="submit">Submit</button>
-</form> -->
-<header>
+<!-- <header class="d-none">
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">Anna Pylypchuk</a>
@@ -13,10 +9,10 @@
 			<div class="collapse navbar-collapse" id="navbarText">
 				<ul class="navbar-nav ms-auto mb-2 me-4 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Services</a>
+						<a class="nav-link active" aria-current="page" href="#services">Services</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contacts</a>
+						<a class="nav-link" href="#contacts">Contacts</a>
 					</li>
 				</ul>
 				<span class="navbar-text">
@@ -34,111 +30,167 @@
 			</div>
 		</div>
 	</nav>
-</header>
+</header> -->
 <main>
-	<section class="main-section">
-		<div class="container landing">
-			<div class="row">
-				<div class="col-md-7">
-					<div class="section-header">
-						WORLKWIDE
+	<section class="main-section" id="worldwide">
+		<div class="col-lg-7">
+			<div class="main-details">
+				<div class="main-nav">
+					<div class="d-flex mb-2">
+						<div class="nav-item col-auto">
+							<a class="nav-link me-3" aria-current="page" href="#services">Services</a>
+						</div>
+						<div class="nav-item col-auto">
+							<a class="nav-link" href="#contacts">Contacts</a>
+						</div>
 					</div>
-					<div class="main-header">
-						Makeup Artists & Hair Stylists
+					<div class="d-flex flex-row main-social">
+						<a class="social-icons me-3 py-2" target="_blank"
+							href="https://instagram.com/stylist_annapylypchuk?igshid=NTc4MTIwNjQ2YQ==">
+							<button type="button" class="btn btn-primary round-button"><i
+									class="bi bi-instagram"></i></button>
+						</a>
+						<a class="social-icons me-3 py-2" target="_blank"
+							href="https://call.whatsapp.com/voice/bUkJXVZnKh55ACopuFkrVP">
+							<button type="button" class="btn btn-primary round-button"><i
+									class="bi bi-whatsapp"></i></button>
+						</a>
 					</div>
-					<div class="header-description text-secondary">
-						Professional team of beauty experts working with clients all over the world. Hairstyles, makeup
-						for
-						the
-						most spectacular events.
-					</div>
-					
-					<button type="button" class="btn btn-primary">Book now</button>
 				</div>
-				<div class="col-md-5">
-					<img src="../../assets/img/IMG_9974.JPG" width="100%" />
+				<div class="section-header mb-5">
+					WORLDWIDE
 				</div>
-			</div>
-		</div>
-	</section>
-	<div class="container landing">
-		<!-- START THE FEATURETTES -->
-		<hr class="featurette-divider">
-
-		<section class="row featurette">
-			<div class="col-md-7">
-				<div class="section-header">SERVICES</div>
-				<h2 class="service-header fw-normal lh-1">Bridal Makeup&Hairstyle</h2>
-				<p class="lead">Your special day will be perfect with our team of beauty experts.</p>
-			</div>
-			<div class="col-md-5">
-				<img src="../../assets/img/IMG_9974.JPG" width="100%" />
-			</div>
-		</section>
-
-		<hr class="featurette-divider">
-
-		<section>
-			<div class="col-md-7">
-				<h2 class="service-header fw-normal lh-1">Trial Session</h2>
-				<p class="lead">A makeup(hair) trial will help you relax and make sure you look your best on your most
-					memorable day.</p>
-			</div>
-			<div class="col-md-5">
-				<div class="col-md-5">
-					<img src="../../assets/img/IMG_9974.JPG" width="100%" />
+				<div class="main-header mb-5">
+					Makeup Artists & Hair Stylists
 				</div>
-			</div>
-		</section>
-
-		<hr class="featurette-divider">
-
-		<section>
-			<div class="col-md-7">
-				<h2 class="service-header fw-normal lh-1">Touch up Service</h2>
-				<p class="lead">Your wedding day will be one of the most emotional days of your life, so expect
-					laughter, tears, and lots and lots of kisses! Our touch-up service is the little luxury you deserve.
-				</p>
-				<p class="lead">Perhaps you want to change your look from daytime to evening? We have you covered! Our
-					stylists will take care of it.</p>
-			</div>
-			<div class="col-md-5">
-				<div class="col-md-5">
-					<img src="../../assets/img/IMG_9974.JPG" width="100%" />
+				<div class="main-lead">
+					Professional team of beauty experts working with clients all over the world. Hairstyles,
+					makeup
+					for
+					the
+					most spectacular events.
 				</div>
-			</div>
-		</section>
-
-		<hr class="featurette-divider">
-
-		<section>
-			<div class="col-md-7">
-				<h2 class="service-header fw-normal lh-1">Photoshoot service</h2>
-				<p class="lead">We are preparing the model for the shoot and providing touch up service diuring the
-					session.</p>
-			</div>
-			<div class="col-md-5">
-				<div class="col-md-5">
-					<img src="../../assets/img/IMG_9974.JPG" width="100%" />
-				</div>
-			</div>
-		</section>
-
-		<hr class="featurette-divider">
-
-		<section>
-			<div class="col-md-7">
-				<div class="section-header">CONTACTS</div>
 				<a class="social-icons me-3 py-2" target="_blank"
 					href="https://instagram.com/stylist_annapylypchuk?igshid=NTc4MTIwNjQ2YQ==">
-					<i class="bi bi-instagram"></i>
-				</a>
-				<a class="social-icons me-3 py-2" target="_blank"
-					href="https://call.whatsapp.com/voice/bUkJXVZnKh55ACopuFkrVP">
-					<i class="bi bi-whatsapp"></i>
+					<button type="button" class="btn btn-primary mb-5">Book now</button>
 				</a>
 			</div>
-			<div class="col-md-5"></div>
-		</section>
+		</div>
+		<div class="col-lg-5">
+			<img src="../../assets/img/1.jpg" width="100%" />
+		</div>
+	</section>
+	
+	<div class="container relative landing">
+		<div class="back-button">
+			<a class="me-3 py-2 sticky-top bottom-0 end-0" href="#">
+				<button type="button" class="btn btn-outline-primary round-button"><i class="bi bi-arrow-up"></i></button>
+			</a>
+		</div>
+			<!-- START THE FEATURETTES -->
+			<hr class="featurette-divider">
+
+			<section class="row featurette">
+				<div class="col-md-7">
+					<div class="section-header mb-5" id="services">SERVICES</div>
+					<h2 class="service-header fw-normal mb-5">Bridal Makeup & Hairstyle</h2>
+					<p class="lead">Your special day will be perfect with our team of beauty experts.</p>
+
+				</div>
+				<div class="col-md-5">
+					<img src="../../assets/img/wedding5.JPG" width="100%" />
+				</div>
+			</section>
+
+			<hr class="featurette-divider">
+
+			<section class="row featurette">
+				<div class="col-md-7">
+					<h2 class="service-header fw-normal mb-5">Trial Session</h2>
+					<p class="lead">A makeup(hair) trial will help you relax and make sure you look your best on your
+						most
+						memorable day.</p>
+				</div>
+				<div class="col-md-5">
+					<img src="../../assets/img/2.jpg" width="100%" />
+				</div>
+			</section>
+
+			<hr class="featurette-divider">
+
+			<section class="row featurette">
+				<div class="col-md-7">
+					<h2 class="service-header fw-normal mb-5">Touch up Service</h2>
+					<p class="lead">Your wedding day will be one of the most emotional days of your life, so expect
+						laughter, tears, and lots and lots of kisses! Our touch-up service is the little luxury you
+						deserve.
+					</p>
+					<p class="lead">Perhaps you want to change your look from daytime to evening? We have you covered!
+						Our
+						stylists will take care of it.</p>
+				</div>
+				<div class="col-md-5">
+					<img src="../../assets/img/wedding3.jpg" width="100%" />
+				</div>
+			</section>
+
+			<hr class="featurette-divider">
+
+			<section class="row featurette">
+				<div class="col-md-7">
+					<h2 class="service-header fw-normal mb-5">Photoshoot service</h2>
+					<p class="lead">We are preparing the model for the shoot and providing touch up service during the
+						session.</p>
+				</div>
+				<div class="col-md-5">
+					<img src="../../assets/img/3.JPG" width="100%" />
+				</div>
+			</section>
+
+			<hr class="featurette-divider">
+
+			<section class="row featurette pb-5">
+				<div class="col-md-7">
+					<div class="section-header mb-5" id="contacts">CONTACTS</div>
+					<div class="d-flex">
+						<div class="col-auto me-5">
+							<div class="row align-items-center mb-3">
+								<a class="social-icons col-auto" target="_blank"
+									href="https://instagram.com/stylist_annapylypchuk?igshid=NTc4MTIwNjQ2YQ==">
+									<button type="button" class="btn btn-primary round-button"><i
+											class="bi bi-instagram"></i></button>
+								</a>
+								<div class="col">Instagram</div>
+							</div>
+							<div class="row align-items-center">
+								<a class="social-icons col-auto" target="_blank"
+									href="https://call.whatsapp.com/voice/bUkJXVZnKh55ACopuFkrVP">
+									<button type="button" class="btn btn-primary round-button"><i
+											class="bi bi-whatsapp"></i></button>
+								</a>
+								<span class="col">Whatsapp</span>
+							</div>
+						</div>
+						<div class="col">
+							<div class="row align-items-center mb-3">
+								<a class="social-icons col-auto" target="_blank" href="tel: +380682027932">
+									<button type="button" class="btn btn-primary round-button"><i
+											class="bi bi-telephone"></i></button>
+								</a>
+								<div class="col">+380682027932</div>
+							</div>
+							<div class="row align-items-center">
+								<a class="social-icons col-auto" target="_blank" href="mailto: annazagika@gmail.com">
+									<button type="button" class="btn btn-primary round-button"><i
+											class="bi bi-envelope"></i></button>
+								</a>
+								<span class="col">annazagika@gmail.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5"></div>
+			</section>
 	</div>
+
 </main>
